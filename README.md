@@ -16,6 +16,7 @@ Through development, the following tools were installed/used:
 - **nodemon**: node package for server updates (avoids repeated closing and opening of server in order to update code changes) *used in development only
 - **nunjucks**: node package for template engine (allows usage of template engine in the html for dynamic content)
 - **Nunjucks Template**: VSCode extension (includes color text for nunjucks' entries)
+- **vscode-icons**: VSCode extension (complements Nunjucks Template as it made the icons from VSCode disappear)
 
 
 
@@ -34,8 +35,8 @@ If you wish to replicate the build on your machine, call for:
 
 Beware that as this extension may break VSCode's Emmet and in order to assure it works correctly do the following:
 
-- On VSCode command window (Ctr+Shift+P on Linux), open *'Settings (JSON)'*
-- Include in the JSON object:
+1. On VSCode command window (Ctr+Shift+P on Linux), open *'Settings (JSON)'*
+2. Include in the JSON object:
 
         "files.associations": {
             "*.html": "njk"
@@ -44,4 +45,4 @@ Beware that as this extension may break VSCode's Emmet and in order to assure it
             "njk": "html"
         }
 
-- Done
+3. Done
