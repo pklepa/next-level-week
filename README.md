@@ -27,15 +27,15 @@ Through development, the following tools were installed/used:
 This build uses **express** node package for server purposes as well as other packages listed above.  
 If you wish to replicate the build on your machine, call for:
 
-> ~/next-level-week$ npm install
+    ~/next-level-week$ npm install
 
 
 #### Configuring Nunjucks Template
 
 Beware that as this extension may break VSCode's Emmet and in order to assure it works correctly do the following:
 
-> On VSCode command window (Ctr+Shift+P on Linux), open *'Settings (JSON)'*
-> Include in the JSON object:
+- On VSCode command window (Ctr+Shift+P on Linux), open *'Settings (JSON)'*
+- Include in the JSON object:
 
     "files.associations": {
         "*.html": "njk"
@@ -44,4 +44,4 @@ Beware that as this extension may break VSCode's Emmet and in order to assure it
         "njk": "html"
     }
 
-> Done
+- Done
