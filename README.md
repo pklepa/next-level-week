@@ -37,11 +37,11 @@ Beware that as this extension may break VSCode's Emmet and in order to assure it
 - On VSCode command window (Ctr+Shift+P on Linux), open *'Settings (JSON)'*
 - Include in the JSON object:
 
-    "files.associations": {
-        "*.html": "njk"
-    },
-    "emmet.includeLanguages": {
-        "njk": "html"
-    }
+        "files.associations": {
+            "*.html": "njk"
+        },
+        "emmet.includeLanguages": {
+            "njk": "html"
+        }
 
 - Done
