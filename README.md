@@ -17,6 +17,7 @@ Through development, the following tools were installed/used:
 - **nunjucks**: node package for template engine (allows usage of template engine in the html for dynamic content)
 - **Nunjucks Template**: VSCode extension (includes color text for nunjucks' entries)
 - **vscode-icons**: VSCode extension (complements Nunjucks Template as it made the icons from VSCode disappear)
+- **sqlite3**: node package for SQLite database
 
 
 
