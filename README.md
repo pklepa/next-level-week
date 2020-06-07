@@ -27,7 +27,7 @@ Through development, the following tools were installed/used:
 #### Running the project in your machine
 
 This build uses **express** node package for server purposes as well as other packages listed above.  
-If you wish to replicate the build on your machine, call for:
+If you wish to replicate the build on your machine, the project already signs to npm which packages to install so simply call for:
 
     ~/next-level-week$ npm install
 
